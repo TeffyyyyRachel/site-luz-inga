@@ -1,2 +1,2 @@
 # site-luz-inga
- Criando formulário simples para trabalho da faculdade.
+ Criando site simples para trabalho do curso EAD de Ciências da Computação para Unifacs da cidade de Salvador.
