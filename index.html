@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz ingá</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: gray;
+        }
+        div{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        p#luz_inga{
+            font-size: 60px;
+            padding: 20px;
+            padding-bottom: 0;
+        }
+        p#sub_ti{
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+        p#recepcao{
+            color: white;
+            padding: 15px;
+        }
+        nav#botoes{
+            background-color: black;
+            text-align: center;
+            padding: 20px 0px;
+        }
+        nav#botoes > a{
+            color: white;
+            padding: 10px 10px;
+            margin: 0px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            background-color: gray;
+        }
+        p#aluna{
+            text-decoration: underline;
+            font-style: italic;
+            display: inline;
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        main{
+            text-align: center;
+            background-color: white;
+            height: 100%;
+            width: 60%;
+            margin: auto;
+            padding: 10px;
+        }
+        img{
+            height: 300px;
+        }
+        section{
+            padding: 40px;
+        }
+        p.valor {
+            font-size: 20px;
+        }
+
+        .container {
+        position: relative;
+        width: 50%;
+        margin: 50px auto;
+        border-radius: 10px;
+        }
+
+        .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        }
+
+        .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        }
+
+        .container:hover .image {
+        opacity: 0.3;
+        }
+
+        .container:hover .middle {
+        opacity: 1;
+        }
+
+        .text {
+        font-size: 20em;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <p id="luz_inga">Luz Ingá</p>
+        <p id="sub_ti">Materiais de decoração</p>
+        <p id="recepcao">Receba as boas vindas ao nosso site!</p>
+    </div>
+    <nav id="botoes">
+        <a href="#">Home</a>
+        <a href="#">Todos os produtos</a>
+        <a href="#">Contatos</a>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <img src="https://www.sofacasa.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/3/03_1_.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Sofá de três lugares</div>
+              <div class="text">R$ XXX.xx</div>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="https://www.moveisconquista.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/k/ak1a8436_1.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Mesa de jantar de seis lugares</div>
+              <div class="text">R$ XXX.xx</div>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="https://dinoluxiluminacao.com.br/wp-content/uploads/2021/11/Abajur-com-Base-de-Madeira-Torneado.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Abajur de mesa</div>
+              <div class="text">R$ XX.xx</div>
+            </div>
+        </div>
+       
+    </main>
+
+</body>
+<footer>
+    Site desenvolvido por <p id="aluna">Stéphanie Rachel</p>
+</footer>
+</html>
